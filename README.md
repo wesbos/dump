@@ -2,7 +2,7 @@
 
 Take a dump on your React App.
 
-If you ever want to just see a value on the page isntead of console.logging() it, use this. 
+If you ever want to just see a value on the page instead of console.logging() it, use this. 
 
 Put Dump.js in your project and use it:
 
