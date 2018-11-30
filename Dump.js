@@ -9,10 +9,10 @@ const Dump = props => (
       background: 'white',
     }}
   >
-    {Object.keys(props).map(prop => (
-      <pre key={prop}>
-        <strong style={{ color: 'white', background: 'red' }}>{prop} 💩</strong>
-        {JSON.stringify(props[prop], '', ' ')}
+    {Object.entries(props).map(([key, val]) => (
+      <pre key={key}>
+        <strong style={{ color: 'white', background: 'red' }}>{key} 💩</strong>
+        {JSON.stringify(val, '', ' ')}
       </pre>
     ))}
   </div>
