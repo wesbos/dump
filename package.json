@@ -1,0 +1,22 @@
+{
+  "name": "@wesbos/dump",
+  "version": "0.0.1",
+  "description": "Take a dump on your React App.",
+  "main": "Dump.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesbos/dump.git"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "author": "wes bos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wesbos/dump/issues"
+  },
+  "homepage": "https://github.com/wesbos/dump#readme"
+}
