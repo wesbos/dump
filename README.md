@@ -6,9 +6,9 @@ If you ever want to just see a value on the page instead of console.logging() it
 
 Put Dump.js in your project and use it:
 
-![](http://wes.io/qNOI/content)
+![](https://wes.io/qNOI/content)
 
-![](http://wes.io/qOgP/content)
+![](https://wes.io/qOgP/content)
 
 ## FAQ
 
