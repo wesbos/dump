@@ -1,22 +1,37 @@
 {
   "name": "@wesbos/dump",
-  "version": "0.0.1",
+  "private": false,
+  "version": "0.1.1",
+  "author": "wes bos",
+  "license": "MIT",
   "description": "Take a dump on your React App.",
-  "main": "Dump.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "react": "16.11.0",
+    "react-dom": "16.11.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.6.4",
+    "@babel/core": "7.6.4",
+    "@babel/preset-env": "7.6.3",
+    "@babel/preset-react": "7.6.3",
+    "rollup": "1.25.2",
+    "rollup-plugin-babel": "4.3.3"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wesbos/dump.git"
   },
-  "peerDependencies": {
-    "react": "*"
-  },
-  "author": "wes bos",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/wesbos/dump/issues"
   },
-  "homepage": "https://github.com/wesbos/dump#readme"
+  "homepage": "https://github.com/wesbos/dump#readme",
+  "keywords": [
+    "react",
+    "dump",
+    "props"
+  ]
 }
