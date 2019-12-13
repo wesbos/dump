@@ -11,9 +11,9 @@ Put Dump.js in your project and use it:
 npm i @wesbos/dump
 ```
 
-![](https://wes.io/qNOI/content)
+![](https://wes.io/qNOI/content.png)
 
-![](https://wes.io/qOgP/content)
+![](https://wes.io/qOgP/content.png)
 
 ## FAQ
 
